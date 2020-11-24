@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header  {
+    width: 100%;
+    padding-bottom: 190px;
+    background: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg') center / cover fixed;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ol {
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s linear;
+    
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/* Main-banner */
+
+.main_banner {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main_banner h1 i {
+    font-size: 45px;
+    color: white;
+    font-weight: 100;
+}
+
+.main_banner h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    transition: .3s linear;
+}
+
+.button a:hover {
+    background-color: goldenrod;
+}
+
+.title {
+    text-align: center;
+    margin:  50px 0;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title p {
+    color: grey;
+    font-style: italic;
+}
+
+/* Servicess */
+
+.sevices_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img_card {
+    margin:  0 50px;
+    text-align: center;
+}
+
+.img_block  {
+    padding: 25px;
+    width: 70px;
+    margin: 0 auto;
+    background-color: #fed136;
+    border-radius: 50%;
+}
+
+.img_block img {
+    width: 70px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background: whitesmoke;
+    padding: 50px 0;
+}
+.portfolio_container {
+    margin: 100px 0;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio_card {
+    background: white;
+    margin: 10px 20px;
+}
+
+.portfolio_card img {
+    width: 350px;
+    transition: .3s linear;
+}
+
+.portfolio_card img:hover {
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+hr {
+    width: 100%;
+    border: 1px dashed;
+}
+
+/* About */
+
+.about_container {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.about_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.about_card div {
+    margin:  0 20px;
+}
+
+.text {
+    text-align: right;
+    width: 400px;
+}
+
+.text2 {
+    text-align: left;
+    width: 400px;
+}
+
+.circle img {
+    border: 5px solid gainsboro;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+/* teams */
+
+#teams {
+    padding: 30px 0;
+    background-color: whitesmoke;
+}
+
+.team_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.team_card img {
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid rgb(179, 167, 167);
+
+}
+
+.card_child a i {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(43, 40, 40);
+    color: blanchedalmond;
+    margin: 10px;
+    transition: .3s linear;
+}
+
+.card_child a i:hover {
+    background-color: rgb(105, 96, 96);
+    color: burlywood;
+}
+
+/* partners */
+
+#partners {
+    margin-top: 50px;
+}
+
+.parners_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left_img img {
+    width: 150px;
+    margin: 20px 40px;
+}
+
+/* contacts */
+
+#contacts {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    background: url('../img/img/bg-map.jpg') center / cover;
+}
+
+.title_contact {
+    text-align: center;
+    margin:  50px 0;
+    padding-top: 50px;
+}
+
+.title_contact h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.title_contact p {
+    color: grey;
+    font-style: italic;
+}
+
+.contacts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.left_block {
+    margin: 20px 0px;
+}
+
+.left_block form input{
+ width: 70%;
+ margin: 10px 0;
+ padding: 20px 10px;
+ background-color: rgb(240, 238, 230);
+ border: none;
+ outline: none;
+ border-radius: 6px;
+}
+
+.right_block {
+    margin: 20px 0px;
+}
+
+.right_block textarea {
+    padding: 20px 10px;
+    background-color: rgb(240, 238, 230);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(172, 169, 169);
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.copyright p {
+    font-weight: 600;
+}
+
+.footer_icons a i {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(43, 40, 40);
+    color: blanchedalmond;
+    margin: 10px;
+    transition: .3s linear;
+}
+
+.footer_icons i:hover {
+    background-color: rgb(105, 96, 96);
+    color: burlywood;
+}
+
+.polisy p {
+    color: gold;
+}
+
+@media screen and (max-width: 800px){
+    nav ul {
+        display: none;
+    }
+
+    .main_banner h1 i {
+        font-size: 35px;
+        color: white;
+        font-weight: 100;
+    }
+    
+    .main_banner h2 {
+        font-size: 50px;
+        color: white;
+    }
+    
+    .button a {
+        padding: 10px 15px;
+        border-radius: 6px;
+        border: 0;
+        outline: 0;
+        color: rgb(240, 240, 240);
+        font-size: 18px;
+    }
+
+    .sevices_container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .img_card {
+        border: 1px dashed black;
+        margin:  10px 0;
+        border-radius: 10px;
+        padding: 10px 5px;
+    }
+    
+}
+
+@media screen and (max-width: 580px){
+
+    .main_banner h1 i {
+        font-size: 25px;
+        color: white;
+        font-weight: 100;
+    }
+    
+    .main_banner h2 {
+        font-size: 35px;
+        color: white;
+    }
+    
+    .button a {
+        padding: 10px 15px;
+        border-radius: 6px;
+        border: 0;
+        outline: 0;
+        color: rgb(240, 240, 240);
+        font-size: 16px;
+    }
+
+    .left_block form input{
+        width: 50%;
+        margin: 10px 0;
+        padding: 20px 10px;
+        background-color: rgb(240, 238, 230);
+        border: none;
+        outline: none;
+        border-radius: 6px;
+       }
+       
+       .right_block {
+           margin: 20px 0px;
+       }
+       
+       .right_block textarea {
+           width: 60%;
+           padding: 20px 10px;
+           background-color: rgb(240, 238, 230);
+           border: none;
+           outline: none;
+           border-radius: 6px;
+       }
+}
+
+@media screen and (max-width: 445px){
+
+    /* About */
+
+    .about_container {
+        width: 70%;
+        margin: 50px auto;
+    }
+
+    .about_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .about_card div {
+        margin:  20px 10px;
+    }
+
+    .text {
+        text-align: right;
+        width: 400px;
+    }
+
+    .text h1, h2 {
+        font-size: 16px;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+
+    .text2 {
+        text-align: left;
+        width: 400px;
+    }
+
+    .text2 h1, h2 {
+        font-size: 16px;
+    }
+
+    .text2 p{
+        font-size: 14px;
+    }
+
+    .circle img {
+        border: 5px solid gainsboro;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+
+    /* teams */
+
+    #teams {
+        padding: 20px 0;
+        background-color: whitesmoke;
+    }
+
+    .team_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team_card{
+        margin: 20px 0;
+    }
+
+    /* partners */
+
+    #partners {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 385px){
+
+     /* About */
+
+     .about_container {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .about_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+
+    .text {
+        text-align: right;
+        width: 400px;
+    }
+
+    .text h1, h2 {
+        font-size: 14px;
+    }
+
+    .text p{
+        font-size: 10px;
+    }
+
+    .text2 {
+        text-align: left;
+        width: 400px;
+    }
+
+    .text2 h1, h2 {
+        font-size: 14x;
+    }
+
+    .text2 p{
+        font-size: 10px;
+    }
+
+    .circle img {
+        border: 5px solid gainsboro;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+
+    /* Portfolio */
+
+    .portfolio {
+        background: whitesmoke;
+        padding: 50px 0;
+    }
+    .portfolio_container {
+        margin: 50px 0;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio_card {
+        background: white;
+        margin: 10px 0px;
+    }
+
+    .portfolio_card img {
+        width: 280px;
+    }
+}
